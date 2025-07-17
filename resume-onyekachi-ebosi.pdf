@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>👨‍💻 Onyekachi Chukwunyere Ebosi – Resume</title>
+  <title> Onyekachi Chukwunyere Ebosi – Resume</title>
   <meta name="description" content="Tech-savvy professional with skills in AI automation, Python, and bot development. Based in Dubai, seeking remote and UAE-based opportunities." />
   <link rel="icon" href="https://em-content.zobj.net/source/apple/354/man-technologist_1f468-200d-1f4bb.png" type="image/png" />
   <style>
@@ -120,21 +120,21 @@
   </style>
 </head>
 <body>
-  <button class="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+  <button class="dark-toggle" aria-label="Toggle dark mode"></button>
   <div class="container">
     <h1>Onyekachi Chukwunyere Ebosi</h1>
     <p>
-      <strong>📍 Location:</strong> Dubai, United Arab Emirates ·
+      <strong> Location:</strong> Dubai, United Arab Emirates ·
       <strong>Email:</strong>
       <a href="mailto:onyekachiebosi@gmail.com">onyekachiebosi@gmail.com</a>
     </p>
     <p>
-      <strong>📞 Phone:</strong> +971 52 451 4983 ·
-      <strong>🔗 LinkedIn:</strong>
+      <strong> Phone:</strong> +971 52 451 4983 ·
+      <strong> LinkedIn:</strong>
       <a href="https://www.linkedin.com/in/onyekachiebosi">linkedin.com/in/onyekachiebosi</a>
     </p>
     <p>
-      <strong>💻 Telegram Bot:</strong>
+      <strong> Telegram Bot:</strong>
       <a href="https://t.me/AlertDeskBot">@AlertDeskBot</a>
     </p>
 
@@ -149,11 +149,11 @@
         class="btn-link"
         title="Chat on WhatsApp"
       >
-        💬 Chat on WhatsApp
+         Chat on WhatsApp
       </a>
     </div>
 
-    <h2>📘 Professional Summary</h2>
+    <h2> Professional Summary</h2>
     <p>
       Resourceful tech enthusiast skilled in building and automating AI-powered
       web apps, Telegram/Facebook bots, and automation pipelines using Python,
@@ -162,7 +162,7 @@
       automation and scripting.
     </p>
 
-    <h2>💡 Key Skills</h2>
+    <h2> Key Skills</h2>
     <ul class="skills">
       <li>Python & Bash scripting</li>
       <li>OpenAI/GPT APIs</li>
@@ -173,7 +173,7 @@
       <li>No-code (Ghost, Substack, Canva)</li>
     </ul>
 
-    <h2>🛠 Projects & Experience</h2>
+    <h2> Projects & Experience</h2>
     <p>
       <strong>TrendifyTube – YouTube-Affiliate Bot</strong> (2024–Present)<br />
       • Automated blog content creation using GPT<br />
@@ -208,10 +208,10 @@
       <li><strong>Certification:</strong> Artificial Intelligence for Cybersecurity – LinkedIn, 2024</li>
     </ul>
 
-    <h2>🌐 Languages</h2>
+    <h2> Languages</h2>
     <p>English (Fluent)</p>
 
-    <h2>🔗 References</h2>
+    <h2> References</h2>
     <p>Available on request</p>
 
     <div class="footer">
@@ -223,7 +223,7 @@
     const toggleButton = document.querySelector('.dark-toggle');
     toggleButton.addEventListener('click', () => {
       document.body.classList.toggle('dark');
-      toggleButton.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+      toggleButton.textContent = document.body.classList.contains('dark') ? :;
     });
   </script>
 </body>
