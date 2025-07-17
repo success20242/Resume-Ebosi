@@ -1,55 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Onyekachi Chukwunyere Ebosi – Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>👨‍💻 Onyekachi Chukwunyere Ebosi – Resume</title>
+  <meta name="description" content="Tech-savvy professional with skills in AI automation, Python, and bot development. Based in Dubai, seeking remote and UAE-based opportunities." />
+  <link rel="icon" href="https://em-content.zobj.net/source/apple/354/man-technologist_1f468-200d-1f4bb.png" type="image/png" />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f7f7f7; }
-    .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 8px; }
-    h1 { margin-top: 0; color: #2c3e50; }
-    h2 { color: #34495e; border-bottom: 1px solid #e0e0e0; padding-bottom: 5px; margin-top: 30px; }
-    p, li { line-height: 1.6; color: #555; }
-    .skills li { display: inline-block; background: #2980b9; color: white; padding: 5px 10px; margin: 5px; border-radius: 4px; }
-    .footer { text-align: center; margin-top: 40px; font-size: 14px; color: #aaa; }
-    a { color: #2980b9; text-decoration: none; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f7f7f7;
+      color: #555;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    body.dark {
+      background: #121212;
+      color: #ddd;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    body.dark .container {
+      background: #1e1e1e;
+      color: #ddd;
+    }
+    h1 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    body.dark h1 {
+      color: #fff;
+    }
+    h2 {
+      color: #34495e;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    body.dark h2 {
+      color: #aaa;
+      border-color: #444;
+    }
+    p,
+    li {
+      line-height: 1.6;
+    }
+    .skills li {
+      display: inline-block;
+      background: #2980b9;
+      color: white;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 4px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    body.dark a {
+      color: #66aaff;
+    }
+    .button-container {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    button,
+    .btn-link {
+      cursor: pointer;
+      background-color: #2980b9;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    button:hover,
+    .btn-link:hover {
+      background-color: #1f5f8b;
+    }
+    .dark-toggle {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      background: #2980b9;
+      border-radius: 20px;
+      width: 50px;
+      height: 26px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      user-select: none;
+      z-index: 1000;
+    }
   </style>
 </head>
 <body>
+  <button class="dark-toggle" aria-label="Toggle dark mode">🌙</button>
   <div class="container">
     <h1>Onyekachi Chukwunyere Ebosi</h1>
-    <p><strong>📍 Location:</strong> Dubai, United Arab Emirates · <strong>Email:</strong> <a href="mailto:onyekachiebosi@gmail.com">onyekachiebosi@gmail.com</a></p>
-    <p><strong>📞 Phone:</strong> +971 52 451 4983 · <strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/onyekachiebosi">linkedin.com/in/onyekachiebosi</a></p>
-    <p><strong>💻 Telegram Bot:</strong> <a href="https://t.me/AlertDeskBot">@AlertDeskBot</a></p>
+    <p>
+      <strong>📍 Location:</strong> Dubai, United Arab Emirates ·
+      <strong>Email:</strong>
+      <a href="mailto:onyekachiebosi@gmail.com">onyekachiebosi@gmail.com</a>
+    </p>
+    <p>
+      <strong>📞 Phone:</strong> +971 52 451 4983 ·
+      <strong>🔗 LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/onyekachiebosi">linkedin.com/in/onyekachiebosi</a>
+    </p>
+    <p>
+      <strong>💻 Telegram Bot:</strong>
+      <a href="https://t.me/AlertDeskBot">@AlertDeskBot</a>
+    </p>
+
+    <div class="button-container">
+      <a href="resume-onyekachi-ebosi.pdf" download="OnyekachiEbosi_Resume.pdf" class="btn-link" title="Download Resume PDF">
+        📥 Download Resume
+      </a>
+      <a
+        href="https://wa.me/971524514983"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-link"
+        title="Chat on WhatsApp"
+      >
+        💬 Chat on WhatsApp
+      </a>
+    </div>
 
     <h2>📘 Professional Summary</h2>
-    <p>Resourceful tech enthusiast skilled in building and automating AI-powered web apps, Telegram/Facebook bots, and automation pipelines using Python, OpenAI, jsPDF, and no-code tools. Proven ability to deploy instant PDF generators and content bots, seeking remote/tech roles focused on automation and scripting.</p>
+    <p>
+      Resourceful tech enthusiast skilled in building and automating AI-powered
+      web apps, Telegram/Facebook bots, and automation pipelines using Python,
+      OpenAI, jsPDF, and no-code tools. Proven ability to deploy instant PDF
+      generators and content bots, seeking remote/tech roles focused on
+      automation and scripting.
+    </p>
 
     <h2>💡 Key Skills</h2>
     <ul class="skills">
-      <li>Python & Bash scripting</li><li>OpenAI/GPT APIs</li><li>Telegram/Facebook Bot API</li>
-      <li>jsPDF for PDF generation</li><li>Gumroad workflows</li><li>HTML/CSS deployment</li>
+      <li>Python & Bash scripting</li>
+      <li>OpenAI/GPT APIs</li>
+      <li>Telegram/Facebook Bot API</li>
+      <li>jsPDF for PDF generation</li>
+      <li>Gumroad workflows</li>
+      <li>HTML/CSS deployment</li>
       <li>No-code (Ghost, Substack, Canva)</li>
     </ul>
 
     <h2>🛠 Projects & Experience</h2>
-    <p><strong>TrendifyTube – YouTube-Affiliate Bot</strong> (2024–Present)<br>
-    • Automated blog content creation using GPT<br>
-    • Pushed trending posts across YouTube, Ghost, and Substack<br>
-    • Built affiliate price comparison tool via Google CSE</p>
+    <p>
+      <strong>TrendifyTube – YouTube-Affiliate Bot</strong> (2024–Present)<br />
+      • Automated blog content creation using GPT<br />
+      • Pushed trending posts across YouTube, Ghost, and Substack<br />
+      • Built affiliate price comparison tool via Google CSE
+    </p>
 
-    <p><strong>Daily Art Auto Bot</strong> (2025)<br>
-    • Created an AI art generation pipeline with Stable Diffusion/RunwayML<br>
-    • Auto-posted art to Facebook & Telegram with scheduled captions</p>
+    <p>
+      <strong>Daily Art Auto Bot</strong> (2025)<br />
+      • Created an AI art generation pipeline with Stable Diffusion/RunwayML<br />
+      • Auto-posted art to Facebook & Telegram with scheduled captions
+    </p>
 
-    <p><strong>Visa & Job Alert Bots</strong> (2025)<br>
-    • Developed web-scraping telegram bots for job & visa updates<br>
-    • Deployed scripts via Termux & cron for scheduled alerts</p>
+    <p>
+      <strong>Visa & Job Alert Bots</strong> (2025)<br />
+      • Developed web-scraping telegram bots for job & visa updates<br />
+      • Deployed scripts via Termux & cron for scheduled alerts
+    </p>
 
     <h2>🎓 Education</h2>
     <ul>
-      <li><strong>B.Eng. in Agricultural Engineering (Upper Division)</strong>, Federal University of Technology Owerri – June 2010</li>
-      <li><strong>OND in Agricultural Engineering (Upper Credit)</strong>, Federal Polytechnic Nekede, Owerri – August 2005</li>
+      <li>
+        <strong>B.Eng. in Agricultural Engineering (Upper Division)</strong>,
+        Federal University of Technology Owerri – June 2010
+      </li>
+      <li>
+        <strong>OND in Agricultural Engineering (Upper Credit)</strong>,
+        Federal Polytechnic Nekede, Owerri – August 2005
+      </li>
       <li><strong>Senior Secondary School Certificate</strong>, Community Secondary School – 2003</li>
       <li><strong>First School Leaving Certificate</strong>, Umuduru Egbeaguru Central School – 1996</li>
       <li><strong>Certification:</strong> Artificial Intelligence for Cybersecurity – LinkedIn, 2024</li>
@@ -65,5 +218,13 @@
       Resume generated & hosted by AI-powered stack – ready for UAE tech roles
     </div>
   </div>
+
+  <script>
+    const toggleButton = document.querySelector('.dark-toggle');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      toggleButton.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+    });
+  </script>
 </body>
 </html>
